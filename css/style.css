@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+/*Reto 1*/
+.Contenedor-Euler{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+
+.Contenedor-Euler div{
+    border: 2px ;
+    border-style:  solid;
+}
+
+/*Reto 2*/
+.content{
+    text-align: center;
+}
+.Marco{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    width: 60%;
+    border: 2px solid black;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Marco div{
+    margin: 0;
+    padding: 0;
+    
+}
+.content{
+    background-color: rgb(122, 243, 138);
+    color: rgb(237, 40, 6);
+}
+
+.encabezado{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnwnnWDgPV0G_p6Hfxih0RyL8idGTlN8VNA&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.encabezado img{
+    width: auto;
+    height: 100%;
+}
+
+#avatar{
+    position:relative;
+    bottom: 70px;
+    border-radius: 100%;
+}
+
+.inferior{
+    position: relative;
+    bottom: 70px;
+    text-align: left;
+}
+.inferior p{
+
+    padding: 25px ;
+}
+
+.inferior a{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 45%;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    border: 2px  double rgb(50, 185, 238);
+    border-radius: 12px;
+    background-color: aliceblue;
+    color: blue;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid blueviolet;
+}
+
+.footer div{
+    height: 50px;
+}
+.footer div p{
+    padding: 0;
+    margin: 0;
+}
